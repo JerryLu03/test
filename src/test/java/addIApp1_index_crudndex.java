@@ -78,7 +78,8 @@ public class addIApp1_index_crudndex {
         //根据term条件进行删除
         //条件对象:new term(字段,字段的值);
         indexWriter.deleteDocuments(new Term("bookname","lucene"));
- 	//123
+ 	//123阿瑟东
+	//1
         //释放资源
         indexWriter.commit();
         indexWriter.close();
