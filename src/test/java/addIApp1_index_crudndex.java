@@ -1,4 +1,4 @@
-import com.baidu.entity.Book;
+﻿import com.baidu.entity.Book;
 import com.baidu.impl.BookDaoImpl;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
@@ -78,7 +78,7 @@ public class addIApp1_index_crudndex {
         //根据term条件进行删除
         //条件对象:new term(字段,字段的值);
         indexWriter.deleteDocuments(new Term("bookname","lucene"));
- 
+ 	//123
         //释放资源
         indexWriter.commit();
         indexWriter.close();
